@@ -16,11 +16,21 @@
 	<link rel="stylesheet" href="RARG.css">
 	</head>
 	<body>
-		<div id="topMarqs">
-			<h1>Richard's Amazing ARG</h1>
-			<marquee behaviour="slide" direction="left" scrollamount="1">
-				<img src="assets/meow.jpg">
-			</marquee>
+		<div id="mainArea">
+			<div id="topMarqs">
+				<h1>Richard's Amazing ARG</h1>
+			</div>
+			<div id="startArea">
+				<div id="startButton" class="RARGButton">
+					Start Game
+				</div>
+			      
+			</div>
+			<div id="slowClue" style="display: none">
+				<marquee  behaviour="slide" direction="left" scrollamount="1" scrolldelay="6000">
+					<img src="assets/meow.jpg">
+				</marquee>
+			</div>
 		</div>
 	</body>
 </html>
