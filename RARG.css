@@ -1,0 +1,10 @@
+#topMarqs{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#topMarqs h1{
+	color:blue;
+	position: absolute;
+    z-index: 9999999;
+}
