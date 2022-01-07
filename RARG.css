@@ -17,10 +17,29 @@ body{
 }
 #navBar{
 	height: 80px;
-    background: radial-gradient(circle, rgb(0 48 58) 0%, rgb(0 28 38) 50%, rgb(0 8 14) 100%);
+    background: linear-gradient(0deg, rgba(32,38,48,1) 0%, rgba(33,37,48,1) 60%, rgba(21,48,77,1) 100%);
+	/*background: radial-gradient(circle, rgb(0 48 58) 0%, rgb(0 28 38) 50%, rgb(0 8 14) 100%);*/
 	color: white;
-	    box-shadow: 0px 0px 7px black;
+	box-shadow: 0px 0px 7px black;
+	padding-left: 20px;
+    padding-right: 20px;
 }
+.navBlock{
+	display: flex;
+    align-items: center;
+}
+.navButton *{
+		font-family: tahoma;
+    color: #c5cbd8 !important;
+	text-decoration: none !important;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.navButton a:hover{
+	animation: glow 1s;
+	text-shadow: 0 0 10px #c5cbd8;
+}
+
 #splashBanner{
 	height:30px;
 }
@@ -28,3 +47,13 @@ h1{
 	color:#9e8742;
 }
 
+
+@-webkit-keyframes glow{
+  from {
+    text-shadow: 0 0 0px #c5cbd8;
+  }
+  
+  to {
+    text-shadow: 0 0 10px #c5cbd8;
+  }
+}
