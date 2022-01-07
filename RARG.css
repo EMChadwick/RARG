@@ -29,11 +29,20 @@ body{
     align-items: center;
 }
 .navButton *{
+	color: #c5cbd8 !important;
+}
+
+#siteNav .navButton *{
 		font-family: tahoma;
-    color: #c5cbd8 !important;
 	text-decoration: none !important;
     font-size: 30px;
     letter-spacing: 1px;
+}
+#extNav .navButton *{
+	font-size: 40px;
+}
+.navButton:not(:first-of-type){
+	    margin-left: 2vw;
 }
 .navButton a:hover{
 	animation: glow 1s;
