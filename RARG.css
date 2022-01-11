@@ -82,6 +82,11 @@ h1{
     border-radius: 10px;
 	width:auto;
 }
+.cvChunk{
+	background: #0d131b;
+    padding: 20px;
+	margin-top:20px;
+}
 .blueLine{
 	display: flex;
     justify-content: center;
