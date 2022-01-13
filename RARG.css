@@ -29,6 +29,8 @@ body *:not(i){
 	box-shadow: 0px 0px 7px black;
 	padding-left: 20px;
     padding-right: 20px;
+	position: sticky;
+	top: 0;
 }
 #navContainer{
 	display:flex;
@@ -82,10 +84,17 @@ h1{
     border-radius: 10px;
 	width:auto;
 }
+.blueT{
+	color: #66C0F4;
+}
 .cvChunk{
 	background: #0d131b;
     padding: 20px;
 	margin-top:20px;
+}
+
+.cvChunk:last-of-type{
+	margin-bottom:30px;
 }
 .blueLine{
 	display: flex;
@@ -95,7 +104,9 @@ h1{
 	border: 1px solid #66C0F4;
 	width:95%;
 }
-
+.cvLeftChunk{
+	border-right: 2px solid #66C0F4;
+}
 @-webkit-keyframes glow{
   from {
     text-shadow: 0 0 0px #c5cbd8;
